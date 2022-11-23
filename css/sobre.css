@@ -19,9 +19,10 @@
   font-family: "Nunito", sans-serif;
   padding-bottom: 30px;
   color: #343727;
-  border-bottom: 1px #ddddc3 solid;
 }
-
+.f1 {
+  border-top: 1px #ddddc3 solid;
+}
 .sobrePai ul li {
   padding: 30px 0px;
   padding-left: 30px;
@@ -40,4 +41,61 @@
   position: absolute;
   background-repeat: no-repeat;
   left: 0;
+}
+
+@media (max-width: 1111px) {
+  .sobrePai ul li::before {
+    display: none;
+  }
+}
+
+@media (max-width: 915px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .sobrePai ul li::before {
+    display: inline;
+  }
+}
+
+@media (max-width: 600px) {
+  .imagemPai {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fotoPai {
+    width: 50%;
+  }
+
+  .sobrePai h2 {
+    font-size: 1.75rem;
+    width: 300px;
+  }
+
+  .sobrePai {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sobrePai ul li::before {
+    display: none;
+  }
+
+  .sobrePai ul li {
+    max-width: 400px;
+  }
+}
+@media (max-width: 350px) {
+  .sobrePai h2 {
+    font-size: 1.2rem;
+    width: 200px;
+  }
+
+  .sobrePai {
+    width: 200px;
+  }
 }

@@ -7,22 +7,29 @@
   height: 200px;
   background-color: #ddddc3;
   align-items: center;
+  text-align: center;
   justify-content: center;
 }
 
-.ondas1{
+.ondas1 {
   width: 1280px;
 }
 
-.header h1{
-  font-family: 'Josefin Slab', serif;
+.header h1 {
+  font-family: "Josefin Slab", serif;
   font-size: 4rem;
 }
-}
-.header h1 span{
-  color: #F7802B;
+
+.header h1 span {
+  color: #f7802b;
 }
 
 .custom-shape-divider-top-1669224918 .shape-fill {
-  fill: #DDDDC3;
+  fill: #ddddc3;
+}
+
+@media (max-width: 613px) {
+  .header h1{
+    font-size: 2.5rem;
+  }
 }

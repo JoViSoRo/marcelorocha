@@ -28,7 +28,58 @@
   grid-template-columns: auto 1fr;
   gap: 20px;
 }
-
+.conteudo {
+  max-width: 500px;
+}
 .itaipuacu .conteudo ul span {
   font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .itaipuacu-bg {
+    max-width: 900px;
+  }
+}
+@media (max-width: 950px) {
+  .itaipuacu-bg {
+    max-width: 700px;
+  }
+  .itaipuacu {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .paisagem {
+    display: none;
+  }
+
+  .itaipuacu {
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 430px) {
+  .conteudo {
+    max-width: 300px;
+  }
+  .iconeItaipuacu{
+    display: none;
+  }
+  .conteudo ul li{
+    position: relative;
+  }
+
+  .infoItaipuacu::before{
+    content: " ";
+    width: 10px;
+    height: 4px;
+    background-color: #EE7711;
+    position: absolute;
+    top: -10px;
+  }
 }

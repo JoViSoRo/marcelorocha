@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600&family=Nunito&display=swap");
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding-top: 50px;
+  justify-items: center;
+}
+
+.sobrePai {
+  max-width: 500px;
+  text-align: center;
+}
+
+.sobrePai h2 {
+  font-size: 2.25rem;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 30px;
+  color: #343727;
+  border-bottom: 1px #ddddc3 solid;
+}
+
+.sobrePai ul li {
+  padding: 30px 0px;
+  padding-left: 30px;
+  color: #343727;
+  font-family: "Nunito", sans-serif;
+  border-bottom: 1px #ddddc3 solid;
+  position: relative;
+  font-size: 1.125rem;
+}
+
+.sobrePai ul li::before {
+  content: " ";
+  width: 50px;
+  height: 35px;
+  background-image: url(/img/detalhe.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+}

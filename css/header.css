@@ -1,0 +1,28 @@
+.header-bg {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  height: 200px;
+  background-color: #ddddc3;
+  align-items: center;
+  justify-content: center;
+}
+
+.ondas1{
+  width: 1280px;
+}
+
+.header h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 4rem;
+}
+}
+.header h1 span{
+  color: #F7802B;
+}
+
+.custom-shape-divider-top-1669224918 .shape-fill {
+  fill: #DDDDC3;
+}

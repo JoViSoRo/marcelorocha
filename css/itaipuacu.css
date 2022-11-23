@@ -1,0 +1,34 @@
+.itaipuacu-bg {
+  max-width: 1260px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itaipuacu-bg h1 {
+  font-family: "Josefin Slab", serif;
+  font-size: 4rem;
+}
+.itaipuacu {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.itaipuacu h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+.itaipuacu .conteudo ul {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+
+.itaipuacu .conteudo ul span {
+  font-weight: bold;
+}
